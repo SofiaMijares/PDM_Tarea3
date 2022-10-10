@@ -29,7 +29,7 @@ class BookGrid extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(5.0),
           child: Text(
-            "${book["volumeInfo"]["title"] ?? "Title not available"}",
+            "${book["volumeInfo"]["title"] ?? "error"}",
             textAlign: TextAlign.center,
             style: const TextStyle(fontWeight: FontWeight.bold),
           ),
